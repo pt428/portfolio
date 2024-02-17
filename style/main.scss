@@ -1,0 +1,51 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  background-color: black;
+  margin: 0;
+  color: antiquewhite;
+}
+
+//img backgroung of main page
+header {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/Pavel1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+  top: -29px;
+  min-height: 100vh;
+}
+.empty-space{
+    height:7rem;
+}
+.name {
+  position: relative;
+  margin: 2rem;
+}
+.caption {
+  position: relative;
+  top: -5rem;
+  left: -1.5rem;
+}
+.name h1 {
+  font-size: 4rem;
+}
+.buttons {
+  margin: 2rem;
+}
+.container h2 {
+  text-align: center;
+}
+ 
+.contact-form {
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(224, 171, 13);
+  padding: 1rem;
+  
+}
+.section{
+    padding-top: 5rem;
+}
