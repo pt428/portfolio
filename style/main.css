@@ -11984,10 +11984,10 @@ body {
 
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Pavel1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/sazava.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   top: -29px;
   min-height: 100vh;
 }
@@ -12003,8 +12003,8 @@ header {
 
 .caption {
   position: relative;
-  top: -5rem;
-  left: -1.5rem;
+  top: -4rem;
+  left: 2rem;
 }
 
 .name h1, .name .h1 {
