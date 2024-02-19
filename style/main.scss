@@ -3,10 +3,19 @@ $warning: rgb(190, 230, 14);
 body {
   background-color: black;
   margin: 0;
+  padding: 0;
   color: antiquewhite;
 }
+p{
+  text-align: justify;
+}
+.card-img, .card-img-top {
+ border:2px solid black;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+ 
 
-//img backgroung of main page
+}
 header {
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -66,6 +75,7 @@ header {
   background-color: rgb(0, 0, 0);
   border-radius: 1rem;
   box-shadow: 0 0 15px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
   // border: 2px solid red;
@@ -88,6 +98,7 @@ header {
   height: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
   // border: 2px solid red;
@@ -110,6 +121,7 @@ header {
   height: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
   // border: 2px solid red;
@@ -132,6 +144,7 @@ header {
   height: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
   // border: 2px solid red;
@@ -154,9 +167,10 @@ header {
   height: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
-  
+
   transform: translate(-50%, -50%);
 }
 .line {
@@ -173,10 +187,25 @@ header {
   color: rgb(215, 183, 23);
   background-color: white;
   border: 2px solid rgb(215, 183, 23);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 20px rgb(215, 183, 23);
+  padding-top: 0.1rem;
   border-radius: 50px;
   width: 10px;
   height: 10px;
 }
 @media only screen and (max-width: 990px) {
 }
+.card {
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
+
+.carousel-inner {
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
+.list-group-item {
+  background-color: rgba(57, 57, 35, 0.971);
+  color: rgb(215, 183, 23);
+}
+ 
