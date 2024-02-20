@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
-$warning: rgb(190, 230, 14);
+$warning: rgb(230, 14, 32);
+$carousel-control-width:             15%;
 body {
   background-color: black;
   margin: 0;
@@ -193,11 +194,26 @@ header {
   width: 10px;
   height: 10px;
 }
-@media only screen and (max-width: 990px) {
+.carousel{
+  max-width:50% !important;
+   
+}
+@media only screen and (max-width: 1440px) {
+  .carousel{
+    max-width:100% !important;
+     
+  }
 }
 .card {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   border-radius: 1rem;
+}
+.coarousel-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-inner {
