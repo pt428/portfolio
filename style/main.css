@@ -11983,11 +11983,12 @@ body {
   color: antiquewhite;
 }
 
-p {
+#about p {
   text-align: justify;
 }
 
-.card-img, .card-img-top {
+.card-img,
+.card-img-top {
   border: 2px solid black;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -11995,7 +11996,7 @@ p {
 
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/sazava.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sazava.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12184,7 +12185,7 @@ header {
 }
 
 .carousel {
-  max-width: 50% !important;
+  max-width: 40% !important;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -12195,6 +12196,10 @@ header {
 .card {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   border-radius: 1rem;
+}
+
+.card-body p {
+  text-align: center;
 }
 
 .coarousel-container {

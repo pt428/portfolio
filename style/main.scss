@@ -1,25 +1,25 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 $warning: rgb(230, 14, 32);
-$carousel-control-width:             15%;
+$carousel-control-width: 15%;
 body {
   background-color: black;
   margin: 0;
   padding: 0;
   color: antiquewhite;
 }
-p{
+ 
+#about p {
   text-align: justify;
 }
-.card-img, .card-img-top {
- border:2px solid black;
+.card-img,
+.card-img-top {
+  border: 2px solid black;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
- 
-
 }
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/sazava.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,21 +194,22 @@ header {
   width: 10px;
   height: 10px;
 }
-.carousel{
-  max-width:50% !important;
-   
+.carousel {
+  max-width: 40% !important;
 }
 @media only screen and (max-width: 1440px) {
-  .carousel{
-    max-width:100% !important;
-     
+  .carousel {
+    max-width: 100% !important;
   }
 }
 .card {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   border-radius: 1rem;
 }
-.coarousel-container{
+.card-body p {
+  text-align: center;
+}
+.coarousel-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -224,4 +225,3 @@ header {
   background-color: rgba(57, 57, 35, 0.971);
   color: rgb(215, 183, 23);
 }
- 

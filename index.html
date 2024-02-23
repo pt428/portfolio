@@ -12,8 +12,8 @@
   <!-- navbar -->    
      <div class="sticky-top">
       <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">HOME</a>
+        <div class="container-fluid ">
+          
           <button 
           class="navbar-toggler" 
           type="button" 
@@ -25,9 +25,15 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav justify-content-end me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+          <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+           
+            <ul class="navbar-nav 
+             mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button class="btn  " type="button">HOME</button></a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#about"><button class="btn btn-outline-warning me-2" type="button">O mě</button></a>
               </li>
               <li class="nav-item">
@@ -80,7 +86,7 @@
         <!-- nadpisy s kolecky -->
         <div class="row">
           <h3 class="text-center">Vzdělání</h3>
-          <div class="col   line">
+          <div class="col-12 col-md-5  line">
               <h3>Rekvalifikační kurz OOP</h3>
               <div class=" ms-2">
                   <h4>1/2024-6/2024 </h4>
@@ -95,7 +101,7 @@
      
               </div> 
           </div>
-          <div class="col  line">
+          <div class="col-12 col-md-5 line">
               <h3>Magisterské studium</h3>
               <div class=" ms-2">
                   <h4>2012-2014</h4>
@@ -217,21 +223,21 @@
               <!-- ./php -->
             </div>
             <!-- icony mobile ////////////////////////////////////-->
-            <div class="row  d-flex  justify-content-between">
-                   <div class="row col-6  field-2">
+            <div class="row    justify-content-around">
+                   <div class="row col-6   field-2">
                     <!-- Xamarin -->
-                    <div class="col d-flex justify-content-center align-items-center flex-column">
+                      <div class="col d-flex justify-content-center align-items-center flex-column">
                       <h3>Xamarin</h3>
  
 <svg fill="#fff" width="80px" height="80px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.925 1.323a1.904 1.904 0 00-1.609.93L.241 11.07a1.918 1.918 0 000 1.862l5.075 8.816c.326.56.96.929 1.609.93h10.15a1.904 1.904 0 001.609-.93l5.075-8.816a1.918 1.918 0 000-1.862l-5.075-8.816a1.904 1.904 0 00-1.609-.93zm.092 5.157a.22.22 0 01.043 0h1.75a.23.23 0 01.192.114l2.97 5.292a.228.228 0 01.028.086.228.228 0 01.028-.086l2.963-5.292a.231.231 0 01.198-.114h1.751c.155.002.271.197.199.334L14.239 12l2.9 5.179c.08.138-.04.342-.199.34h-1.75a.232.232 0 01-.2-.12l-2.962-5.292A.228.228 0 0112 12.02a.228.228 0 01-.028.086l-2.97 5.292a.231.231 0 01-.192.12H7.06c-.16.002-.278-.202-.199-.34L9.761 12l-2.9-5.186c-.07-.125.015-.307.156-.334Z"/>
 </svg>
 <h6>10%</h6>   
-                    </div>
+                      </div>
                     <!-- ./Xamarin -->
  
                         <!-- android studio -->
-                          <div class="col d-flex justify-content-center align-items-center flex-column">
+                      <div class="col d-flex justify-content-center align-items-center flex-column">
                       <h3>Android studio</h3>
                       <svg fill="#fff"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="80px"
                       height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -259,12 +265,12 @@
                    
                    </svg>     
                    <h6>10%</h6>    
-                    </div>
+                      </div>
                     <!-- ./android studio -->
                   </div>
                   <!-- ./mobile //////////////////////////////////-->
                   <!-- programming language ///////////////////////////-->
-                  <div class="row col-6 field-3">
+                  <div class="row col-6  field-3">
  
                           <!-- c# -->
                           <div class="col d-flex justify-content-center align-items-center flex-column">
@@ -305,7 +311,7 @@
             </div>       
 
             <!-- ./icony databasess/////////////////////////////////-->
-            <div class="row  d-flex  justify-content-between">
+            <div class="row     justify-content-around">
               <div class="row col-6 field-4">
   
                <!-- access -->
@@ -509,9 +515,11 @@
                       <img src="./images/candy_hill.png" class="card-img-top" alt="slovicka">
                       <div class="card-body">
                         <h5 class="card-title">Candy Hill hotel</h5>
-                        <p class="card-text">Bootstrap cvičení, časový limit 8h.</p>
+                        <p class="card-text">Bootstrap cvičení</p>
                       </div>
                       <ul class="list-group list-group-flush">
+                       
+                        <li class="list-group-item"> časový limit 8h.</li>
                         <li class="list-group-item">HTML, CSS, Bootstrap</li>
                    
                         
@@ -545,16 +553,38 @@
                     </div>
 
                     <!-- ./card2 -->
-                    <!-- card3 -->
+                    <!-- card3 -->              
+                    <div class="col col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex justify-content-center">
+                      <div class="card text-bg-dark mb-3"style="width: 18rem;">
+                        <img src="./images/kola.png" class="card-img-top" alt="cars">
+                        <div class="card-body">
+                          <h5 class="card-title">Objednávka</h5>
+                          <p class="card-text">Cvičení z JavaScriptu, <br></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">časový limit 4h.</li>
+                          <li class="list-group-item">HTML, CSS, JavaScript</li>
+                      
+                        </ul>
+                        <div class="card-body">
+                          <a href="https://pavel-tichy.cz/projects/jsCviko/index.html" class="card-link">link</a>
+                          <a href="https://github.com/pt428/objednavkaKol" class="card-link"><code>github</code></a>
+                        </div>
+                      </div>
+  
+                      </div>
+  
+                      <!-- ./card3 -->
+                    <!-- card4 -->
                     <div class="col col-md-6 col-lg-6 col-xl-4 col-xxl-3 d-flex justify-content-center">
                     <div class="card text-bg-dark mb-3"style="width: 18rem;">
                       <img src="./images/dogs.png" class="card-img-top" alt="dogs shelter">
                       <div class="card-body">
-                        <h5 class="card-title">Dogs shelter</h5>
+                        <h5 class="card-title">Psí útulek</h5>
                         <p class="card-text">Cvičeni z Reactu</p>
                       </div>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, React</li>
+                        <li class="list-group-item">HTML, CSS,Bootstrap, React</li>
  
                       </ul>
                       <div class="card-body">
@@ -565,28 +595,74 @@
 
                     </div>
 
-                    <!-- ./card3 -->
-                    <!-- card4 -->              
+                    <!-- ./card4 -->
+                    <!-- card5 -->              
                     <div class="col col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex justify-content-center">
                     <div class="card text-bg-dark mb-3"style="width: 18rem;">
                       <img src="./images/cars.png" class="card-img-top" alt="cars">
                       <div class="card-body">
-                        <h5 class="card-title">Cars</h5>
-                        <p class="card-text">Celoddenní cvičení z Reactu</p>
+                        <h5 class="card-title">Auta</h5>
+                        <p class="card-text">Celodenní cvičení z Reactu</p>
                       </div>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">HTML, CSS, REact</li>
+                        
+                        <li class="list-group-item">HTML, CSS, Bootstrap, React</li>
                    
                       </ul>
                       <div class="card-body">
-                        <a href="https://pavel-tichy.cz/projects/cars/index.html" class="card-link">link</a>
+                        <a href="https://pavel-tichy.cz/projects/jsCviko/index.html" class="card-link">link</a>
                         <a href="https://github.com/pt428/react-cars" class="card-link"><code>github</code></a>
                       </div>
                     </div>
 
                     </div>
 
-                    <!-- ./card4 -->
+                    <!-- ./card5 -->
+                    <!-- card6 -->              
+                    <div class="col col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex justify-content-center">
+                    <div class="card text-bg-dark mb-3"style="width: 18rem;">
+                      <img src="./images/fish.png" class="card-img-top" alt="cars">
+                      <div class="card-body">
+                        <h5 class="card-title">Akvárium</h5>
+                        <p class="card-text">Celodenní cvičení z Reactu</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> časový limit 8h.</li>
+                        <li class="list-group-item">HTML, CSS, Bootstrap, React</li>
+                   
+                      </ul>
+                      <div class="card-body">
+                        <a href="https://pavel-tichy.cz/projects/fish/index.html" class="card-link">link</a>
+                        <a href="https://github.com/pt428/akvarium" class="card-link"><code>github</code></a>
+                      </div>
+                    </div>
+
+                    </div>
+
+                    <!-- ./card6 -->
+                    <!-- card7 -->              
+                    <div class="col col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex justify-content-center">
+                      <div class="card text-bg-dark mb-3"style="width: 18rem;">
+                        <img src="./images/rezervace.png" class="card-img-top" alt="cars">
+                        <div class="card-body">
+                          <h5 class="card-title">Rezervační systém</h5>
+                          <p class="card-text">Vytvořeno pro obec Malenovice</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"> login: admin heslo: admin</li>
+                          <li class="list-group-item">HTML, CSS, Bootstrap, php</li>
+                     
+                        </ul>
+                        <div class="card-body">
+                          <a href="https://pavel-tichy.cz/projects/rezervace/index.php" class="card-link">link</a>
+                          <a href="https://pavel-tichy.cz/projects/rezervace/login.php" class="card-link">admin</a>
+                          <a href="https://github.com/pt428/rezervace.git" class="card-link"><code>github</code></a>
+                        </div>
+                      </div>
+  
+                      </div>
+  
+                      <!-- ./card7 -->
 
                   </div>
                 </div>      
