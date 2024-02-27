@@ -11983,6 +11983,11 @@ body {
   color: antiquewhite;
 }
 
+nav {
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
+
 #about p {
   text-align: justify;
 }
@@ -11996,7 +12001,7 @@ body {
 
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sazava.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/sazava.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12169,14 +12174,14 @@ header {
   margin-left: 0.7rem;
 }
 
-.line h3::before, .line .h3::before {
+.line h4::before, .line .h4::before {
   position: absolute;
   content: "";
   top: 8px;
   left: -5px;
   color: rgb(215, 183, 23);
   background-color: white;
-  border: 2px solid rgb(215, 183, 23);
+  border: 3px solid rgb(215, 183, 23);
   box-shadow: 0 0 20px rgb(215, 183, 23);
   padding-top: 0.1rem;
   border-radius: 50px;
@@ -12193,15 +12198,6 @@ header {
     max-width: 100% !important;
   }
 }
-.card {
-  box-shadow: 0 0 15px rgb(215, 183, 23);
-  border-radius: 1rem;
-}
-
-.card-body p {
-  text-align: center;
-}
-
 .coarousel-container {
   width: 100%;
   display: flex;
@@ -12213,6 +12209,15 @@ header {
 .carousel-inner {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   border-radius: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
+
+.card-body p {
+  text-align: center;
 }
 
 .list-group-item {

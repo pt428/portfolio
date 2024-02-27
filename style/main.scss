@@ -7,7 +7,11 @@ body {
   padding: 0;
   color: antiquewhite;
 }
- 
+
+nav{
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
 #about p {
   text-align: justify;
 }
@@ -19,7 +23,7 @@ body {
 }
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/sazava.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,9 +60,11 @@ header {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   padding: 2rem 1rem;
 }
+
 .section {
   padding-top: 5rem;
 }
+//card www *********************************************************
 .field {
   border: 1px solid rgb(215, 183, 23);
   box-shadow: 0 0 15px rgb(215, 183, 23);
@@ -79,9 +85,9 @@ header {
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
-  // border: 2px solid red;
   transform: translate(-50%, -50%);
 }
+// card Mobile applications *************************************
 .field-2 {
   border: 1px solid rgb(215, 183, 23);
   box-shadow: 0 0 15px rgb(215, 183, 23);
@@ -102,9 +108,9 @@ header {
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
-  // border: 2px solid red;
   transform: translate(-50%, -50%);
 }
+// card Programming languages ********************************************
 .field-3 {
   border: 1px solid rgb(215, 183, 23);
   box-shadow: 0 0 15px rgb(215, 183, 23);
@@ -128,6 +134,7 @@ header {
   // border: 2px solid red;
   transform: translate(-50%, -50%);
 }
+// card Databases *****************************************************
 .field-4 {
   border: 1px solid rgb(215, 183, 23);
   box-shadow: 0 0 15px rgb(215, 183, 23);
@@ -148,9 +155,9 @@ header {
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
-  // border: 2px solid red;
   transform: translate(-50%, -50%);
 }
+// card OS management *****************************************************
 .field-5 {
   border: 1px solid rgb(255, 218, 32);
   box-shadow: 0 0 15px rgb(215, 183, 23);
@@ -171,29 +178,30 @@ header {
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
+ 
 .line {
   border-left: 1px solid rgb(215, 183, 23);
   position: relative;
-
   margin-left: 0.7rem;
 }
-.line h3::before {
+// kolecko u line sekce vzdelani
+.line h4::before {
   position: absolute;
   content: "";
   top: 8px;
   left: -5px;
   color: rgb(215, 183, 23);
   background-color: white;
-  border: 2px solid rgb(215, 183, 23);
+  border: 3px solid rgb(215, 183, 23);
   box-shadow: 0 0 20px rgb(215, 183, 23);
   padding-top: 0.1rem;
   border-radius: 50px;
   width: 10px;
   height: 10px;
 }
+
 .carousel {
   max-width: 40% !important;
 }
@@ -202,13 +210,6 @@ header {
     max-width: 100% !important;
   }
 }
-.card {
-  box-shadow: 0 0 15px rgb(215, 183, 23);
-  border-radius: 1rem;
-}
-.card-body p {
-  text-align: center;
-}
 .coarousel-container {
   width: 100%;
   display: flex;
@@ -216,11 +217,21 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .carousel-inner {
   box-shadow: 0 0 15px rgb(215, 183, 23);
   border-radius: 1rem;
 }
+
+.card {
+  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border-radius: 1rem;
+}
+.card-body p {
+  text-align: center;
+}
+
+
+
 .list-group-item {
   background-color: rgba(57, 57, 35, 0.971);
   color: rgb(215, 183, 23);
