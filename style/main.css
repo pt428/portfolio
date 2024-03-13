@@ -11976,6 +11976,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --yellow: #ffc107;
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -11984,7 +11988,7 @@ body {
 }
 
 nav {
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 10px var(--yellow);
   border-radius: 1rem;
 }
 
@@ -12005,6 +12009,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   top: -29px;
   min-height: 100vh;
 }
@@ -12040,7 +12045,7 @@ header {
   max-width: 30rem;
   margin: 2rem auto;
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding: 2rem 1rem;
 }
 
@@ -12049,8 +12054,8 @@ header {
 }
 
 .field {
-  border: 1px solid rgb(215, 183, 23);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 2rem;
   padding: 2rem;
   position: relative;
@@ -12065,7 +12070,7 @@ header {
   height: 2rem;
   background-color: rgb(0, 0, 0);
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
@@ -12073,8 +12078,8 @@ header {
 }
 
 .field-2 {
-  border: 1px solid rgb(215, 183, 23);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 2rem;
   padding: 2rem;
   position: relative;
@@ -12089,7 +12094,7 @@ header {
   width: 160px;
   height: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
@@ -12097,8 +12102,8 @@ header {
 }
 
 .field-3 {
-  border: 1px solid rgb(215, 183, 23);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 2rem;
   padding: 2rem;
   position: relative;
@@ -12113,7 +12118,7 @@ header {
   width: 200px;
   height: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
@@ -12121,8 +12126,8 @@ header {
 }
 
 .field-4 {
-  border: 1px solid rgb(215, 183, 23);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 2rem;
   padding: 2rem;
   position: relative;
@@ -12137,7 +12142,7 @@ header {
   width: 97px;
   height: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
@@ -12145,8 +12150,8 @@ header {
 }
 
 .field-5 {
-  border: 1px solid rgb(255, 218, 32);
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 2rem;
   padding: 2rem;
   position: relative;
@@ -12161,7 +12166,7 @@ header {
   width: 139px;
   height: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   padding-top: 0.1rem;
   top: 0rem;
   left: 50%;
@@ -12169,7 +12174,7 @@ header {
 }
 
 .line {
-  border-left: 1px solid rgb(215, 183, 23);
+  border-left: 1px solid var(--yellow);
   position: relative;
   margin-left: 0.7rem;
 }
@@ -12179,10 +12184,10 @@ header {
   content: "";
   top: 8px;
   left: -5px;
-  color: rgb(215, 183, 23);
+  color: var(--yellow);
   background-color: white;
-  border: 3px solid rgb(215, 183, 23);
-  box-shadow: 0 0 20px rgb(215, 183, 23);
+  border: 3px solid var(--yellow);
+  box-shadow: 0 0 20px var(--yellow);
   padding-top: 0.1rem;
   border-radius: 50px;
   width: 10px;
@@ -12207,12 +12212,12 @@ header {
 }
 
 .carousel-inner {
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 1rem;
 }
 
 .card {
-  box-shadow: 0 0 15px rgb(215, 183, 23);
+  box-shadow: 0 0 15px var(--yellow);
   border-radius: 1rem;
 }
 
@@ -12222,5 +12227,5 @@ header {
 
 .list-group-item {
   background-color: rgba(57, 57, 35, 0.971);
-  color: rgb(215, 183, 23);
+  color: var(--yellow);
 }/*# sourceMappingURL=main.css.map */
